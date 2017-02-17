@@ -1,3 +1,6 @@
+//Three seperate functions, each using the same submit button
+
+//Preference function
 $(document).ready(function() {
   $("form#questions").submit(function() {
     event.preventDefault();
@@ -9,7 +12,7 @@ $(document).ready(function() {
     }
   });
 });
-
+//Coding chops function
 $(document).ready(function() {
   $("form#questions").submit(function() {
     event.preventDefault();
@@ -21,7 +24,7 @@ $(document).ready(function() {
     }
   });
 });
-
+//readyToLearn function
 $(document).ready(function() {
   $("form#questions").submit(function() {
     event.preventDefault();
