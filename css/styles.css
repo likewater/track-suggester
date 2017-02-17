@@ -1,3 +1,13 @@
 #designTrack, #javaTrack, #railsTrack, #moreInfo {
   display: none;
 }
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/walking-on-train-tracks.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF176;
+    text-shadow: #000 0.1em 0.1em 0.1em;
+}
