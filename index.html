@@ -13,29 +13,29 @@
       <h1>Choose Your Track</h1>
       <p>Learn to develop!</p>
     </div>
-
     <div class="container">
       <div class="row">
+        <!--Begin left column-->
         <div class="col-sm-6">
           <h3>Epicodus Development Track Questionnaire</h3>
-            <h4>Answer the following questions to find out what development track you should follow.</h4></br>
-
-            <h4>1. What do you like best?
-
+          <h4>Answer the following questions to find out what development track you should follow.</h4></br>
+          <!--Begin question 1-->
+          <form id="questions">
+          <h4>1. What do you like best?</h4>
             <div class="radio">
             <label>
               <input type="radio" name="preference" value="coding">
               Coding
             </label>
-          </div>
-          <div class="radio">
+            </div>
+            <div class="radio">
             <label>
               <input type="radio" name="preference" value="designing">
               Designing
             </label>
           </div></br>
-
-          <h4>2. Coding Experience: Choose One.
+          <!--Begin question 2-->
+          <h4>2. Coding Experience: Choose One.</h4>
 
           <div class="radio">
           <label>
@@ -67,8 +67,8 @@
             I'm An Expert!
           </label>
         </div></br>
-
-        <h4>3. Design Experience: Choose One.
+        <!--Begin question 3-->
+        <h4>3. Design Experience: Choose One.</h4>
 
         <div class="radio">
         <label>
@@ -100,8 +100,8 @@
           I'm An Expert in Digital Design!
         </label>
       </div></br>
-
-      <h4>4. Personality: Choose all that apply.
+      <!--Begin question 4-->
+      <h4>4. Personality: Choose all that apply.</h4>
 
       <div class="checkbox">
       <label>
@@ -133,9 +133,8 @@
         I Work Well With Others.
       </label>
     </div></br>
-
-    <h4>5. Are You Ready to Learn?
-
+    <!--Begin question 5-->
+    <h4>5. Are You Ready to Learn?</h4>
     <div class="radio">
     <label>
       <input type="radio" name="commit" value="yes">
@@ -149,12 +148,45 @@
     </label>
   </div></br>
   <button type="submit" class="btn">Submit</button>
+</form>
 
-
+        <!--Begin right column-->
         </div>
         <div class="col-sm-6">
           <h3>Our Track Recommendations Are Below</h3>
-          <h4>The recommendation provided reflects a suitable development track based on your answers.</h4>
+          <h4>The recommendation provided reflects a suitable development track based on your answers.</h4></br>
+
+          <div id="designTrack">
+            <h3>What is CSS?</h3>
+            <p>CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual and aural layout — are the two basic languages involved in the building of web pages and web applications.
+
+</p>
+
+          </div>
+
+          <div id="javaTrack">
+            <h3>What is Java?</h3>
+            <p>Java is a programming language used to create dynamic web applications, applets within larger Web pages, and mobile Android applications. Students who learn java programming will be able to create dynamic web applications on their computer. Most Java students also continue into our Android course, where they learn how to create mobile apps for Android devices.  </p>
+          </div>
+          <div id="railsTrack">
+            <h3>What is Rails?</h3>
+            <p>Rails is a web development framework written in the Ruby language and typically referred to as “Ruby on Rails”. It is meant to make programming applications easier by writing code more efficiently. Rails programming can accomplish much more than many other frameworks and languages because less code needs to be written to complete tasks.
+
+Portland companies using Ruby on Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.</p>
+          </div>
+          <div id="moreInfo">
+            <h3>Email</h3>
+            <p>Prospective students: We'd love to hear from you! To help keep our inbox manageable, please make sure to read about our courses, our career services (including placement rates), and our FAQ. If you have questions about anything not covered there, don't hesitate to email hi@epicodus.com.</p>
+          </div>
+
+
+
+
+
+
+
+
+
           </div>
         </div>
 
